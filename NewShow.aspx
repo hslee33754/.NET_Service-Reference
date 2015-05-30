@@ -68,7 +68,7 @@
                     <asp:TextBox ID="txtTime" runat="server" CssClass="textbox"></asp:TextBox>
                 </asp:TableCell>
                    <asp:TableCell>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="You must enter a time" CssClass="error" ControlToValidate="txtShowTime"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="You must enter a time" CssClass="error" ControlToValidate="txtTime"></asp:RequiredFieldValidator>
                 </asp:TableCell>
             </asp:TableRow>
              <asp:TableRow>
@@ -89,8 +89,7 @@
                 <asp:TableCell>
                     <asp:Label ID="lblArtistKey" runat="server" Text=""></asp:Label>
                 </asp:TableCell>
-                   <asp:TableCell>
-                   
+                <asp:TableCell>
                 </asp:TableCell>
             </asp:TableRow>
              <asp:TableRow>
@@ -100,8 +99,8 @@
                 <asp:TableCell>
                     <asp:TextBox ID="txtArtistStart" runat="server" CssClass="textbox"></asp:TextBox>
                 </asp:TableCell>
-                   <asp:TableCell>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="You must enter a start time" CssClass="error" ControlToValidate="txtStart"></asp:RequiredFieldValidator>
+                <asp:TableCell>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="You must enter a start time" CssClass="error" ControlToValidate="txtArtistStart"></asp:RequiredFieldValidator>
                 </asp:TableCell>
             </asp:TableRow>
              <asp:TableRow>
